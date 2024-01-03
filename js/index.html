@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/JS/style.css">
+
+</head>
+<body>
+
+    <h1 style="color: #f9e89c;">Number Guessing Game</h1>
+
+    <div class="box-outline">
+        <div class="box-container">
+
+            <h1 class="level">Level 1</h1>
+            <h3 class="message">Please Input Value</h3>
+            <button class="nextBtn">Next level</button>
+            <input type="text" id="inputBox1" value="" placeholder="">
+            <button class="playGameBtn">Play Game</button>
+    
+            <h3 class="message2"></h3>
+            <input type="text" value="" id="inputBox2" placeholder="">
+            <button class="guessing">Guessing</button>
+    
+        </div>
+    </div>
+
+        
+  <div class="wrapper">
+    <div class="container">
+        <!-- <h1>Number guessing game</h1> -->
+        <p>Try and guess a random number between 1 and 100</p>
+        <p>You have 10 attempts to guess the right number</p>
+        <br>
+          <form class="form">
+            <label for="guessfild" id="guess">Guess a number</label>
+            <input type="text"  id="guessField" class="guessField" placeholder="">
+            <input type="submit"  id="sub" value="SubmitGuess" class="guessSubmit" placeholder="">
+          </form>
+    
+          <div class="resultPrevious">
+            <p>Previous Guesses : <span class="guesses"></span></p>
+            <p>Guesses Remaining : <span class="lastResult">10</span></p>
+    
+            <p class="lowOrHi"></p>
+
+        </div>
+        <button class="playAgain">Play again</button>
+    </div>
+</div>
+
+
+
+
+
+    <script src="/JS/main.js"></script>
+    
+</body>
+</html>

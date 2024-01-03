@@ -1,0 +1,220 @@
+* {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #000; */
+    background: url(images/backBG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-size: 60px;
+    color: crimson;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+.message {
+    color: red;
+}
+
+
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+    height: 70vh;
+}
+
+.box-container h1 {
+    font-size: 38px;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.nextBtn {
+    cursor: pointer;
+}
+ 
+.playGameBtn {
+    cursor: pointer;
+    padding: 8px 17px;
+    background: rgb(2,0,36);
+    background: linear-gradient(77deg, rgba(2,0,36,1) 2%, rgba(32,4,70,1) 21%, rgba(42,5,81,1) 27%, rgba(78,9,121,1) 49%, rgba(0,0,0,1) 100%);
+    color: #fff;
+}
+
+#inputBox2 {
+    display: none;
+}
+
+.guessing {
+
+    padding: 8px 17px;
+    background: rgb(2,0,36);
+    background: linear-gradient(77deg, rgba(2,0,36,1) 2%, rgba(32,4,70,1) 21%, rgba(42,5,81,1) 27%, rgba(78,9,121,1) 49%, rgba(0,0,0,1) 100%);
+    color: #fff;
+
+    display: none;
+    cursor: pointer;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.nextBtn{
+    display: none;
+    margin-top: 25px;
+    padding: 10px 50px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.nextBtn:hover {
+    box-shadow: 0px 0px 5px cyan,
+                0  0   25px cyan,
+                0 0  50px cyan ;
+}
+
+
+
+#inputBox1 {
+    font-size: 20px;
+    text-align: left;
+    color: #000;
+}
+
+#inputBox2 {
+    font-size: 20px;
+    text-align: left;
+    color: #000;
+}
+
+/* next level */
+
+.container {
+    margin-top: -400px;
+    display: none;
+}
+
+.container p {
+    font-size: 21px;
+    color: chocolate;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    color: #fff;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+label {
+    color: #fff;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.guessField {
+    padding: 15px 20px;
+}
+
+.guessSubmit {
+    cursor: pointer;
+    font-size: 18px;
+    padding: 13px 25px;
+    color: #fff;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #0e0e0e;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.playAgain {
+    margin-top: 70px;
+    padding: 5px 15px;
+    margin-left: 160px;
+    cursor: pointer;
+
+    cursor: pointer;
+    padding: 8px 17px;
+    background: rgb(2,0,36);
+    background: linear-gradient(77deg, rgba(2,0,36,1) 2%, rgba(32,4,70,1) 21%, rgba(42,5,81,1) 27%, rgba(78,9,121,1) 49%, rgba(0,0,0,1) 100%);
+    color: #fff;
+}
+
+#guessField {
+    font-size: 20px;
+    text-align: left;
+    color: #000;
+} 
+
+#sub {
+    padding: 15px 35px;
+    background-color: chocolate;
+    font-size: 20px;
+    text-align: left;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+} 
+
+#sub:hover {
+    background-color: #663714;
+}
+
